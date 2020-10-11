@@ -2,8 +2,8 @@ import React from "react";
 import "./App.css";
 import { HomeScreen } from "./screens/home/home.screen";
 
-function App() {
+const App: React.FC = () => {
   return <HomeScreen />;
-}
+};
 
 export default App;
