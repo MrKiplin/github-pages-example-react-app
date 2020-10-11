@@ -8,14 +8,14 @@ Example of hosing a super basic React app using GitHub Pages
 
 To write and test code you will need [NodeJS](https://nodejs.org/en/) and [Yarn](https://yarnpkg.com/lang/en/) installed. If your on a Mac, use [Homebrew](https://docs.brew.sh/Installation) for installation.
 
-```
+```bash
 brew install node
 brew install yarn
 ```
 
 Will also need [TypeScript](https://www.typescriptlang.org/) installed.
 
-```
+```bash
 npm install -g typescript
 ```
 
@@ -23,7 +23,7 @@ npm install -g typescript
 
 Install project dependencies
 
-```
+```bash
 yarn
 ```
 
@@ -33,7 +33,7 @@ yarn
 
 Unit tests use [jest](https://facebook.github.io/jest/). Tests can be run globally from the root directory by running `yarn test`
 
-```
+```bash
 yarn test
 ```
 
@@ -43,7 +43,7 @@ yarn test
 
 Deploy to GitHub Pages
 
-```
+```bash
 yarn deploy
 ```
 
@@ -61,6 +61,6 @@ There are no particular versioning systems in use.
 
 ## Authors
 
-![](docs/mrkiplin-icon.gif)
+![mrkiplin-icon](docs/mrkiplin-icon.gif)
 
 **Theo Jones** - [MrKiplin](https://github.com/MrKiplin)
